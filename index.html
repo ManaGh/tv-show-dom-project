@@ -8,12 +8,27 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <h1>Tv Show DOM</h1>
+      <div class="search-form">
+        <input type="text" placeholder="Search Shows..." id="search" class="search"/>
+        <p id="search-count" class="search-count"></p>
+      </div>
+  
+    </header>
+    <div class="text-center">
+      <a class="goback-button hidden" id="goback" href="#">Go back to Shows...</a>
+    </div>
     <div id="root">
     </div>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
-
+    <!-- Footer -->
+<footer>
+<a>The website is created for learning purposes. Data provided by <a href="https://www.tvmaze.com/">TVMaze.com</a></p>
+</footer>
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
     <script src="/shows.js"></script>
